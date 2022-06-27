@@ -17,3 +17,7 @@
 ### tsc
 `npx tsc --init`
 
+------------------------------------------------------------------------
+Configurando Webpack para frontend
+
+`npm i ts-loader webpack webpack-cli --save-dev`
