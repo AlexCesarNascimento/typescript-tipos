@@ -2,12 +2,12 @@ const path = require('path');
 
 module.exports = {
   mode: 'development',
-  entry: './src/Aula018-webpack/18-webpack.ts',
+  entry: './src/Aula019-exercicio/19-exercicio.ts',
   module: {
     rules: [
       {
         test: /\.tsx?$/,
-        use: 'ts-loader',
+        loader: 'ts-loader',
         exclude: /node_modules/,
         options: {
           configFile: 'tsconfig.frontend.json',

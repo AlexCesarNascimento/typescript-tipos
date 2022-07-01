@@ -21,12 +21,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:frontend": "webpack -w",
     "build:backend": "tsc"
-
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jshint": "^2.13.4"
+    "@types/validator": "^13.7.3",
+    "jshint": "^2.13.4",
+    "validator": "^13.7.0"
   }
 }
